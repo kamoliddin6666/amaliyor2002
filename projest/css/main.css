@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: sans-serif;
+}
+.container{
+    margin: 0 70px;
+}
+.header{
+    background-color: #ffffff;
+}
+.header .header-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #ffffff;
+}
+.header .header-left-nav{
+    display: flex;
+}
+.header-left .header-left-nav ul{
+    display: flex;
+}
+.header-left-nav ul li a{
+    color: black;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+.header-left-nav ul li a:hover{
+    background-color: darkblue;
+    transition: 1s;
+    color: cyan;
+}
+.section{
+    display: flex;
+}
+.section .section-left{
+    padding: 70px 70px;
+}
+.section .section-left p{
+    font-size: 15px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    line-height: 25px;
+    color: grey;
+}
+.section .section-left h6{
+    padding-top: 10px;
+}
+.section .section-left h6 span{
+    color: gray;
+}
+.taytil{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 70px;
+}
+.eng-ohrgisi {
+    height: 280px;
+    width: 1366px;
+    background-color: black;
+    display: flex;
+    padding: 100px 0 0 0;
+  }
+  .eng-ohrgisi .display-fleh {
+    display: flex;
+  }
+  .eng-ohrgisi .display-fleh .ohirgi h5 {
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  .eng-ohrgisi .display-fleh .ohirgi p {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .eng-ohrgisi .display-fleh .ohirgi2 {
+    margin-left: 245px;
+  }
+  .eng-ohrgisi .display-fleh .ohirgi2 p {
+    color: #ffffff;
+    line-height: 25px;
+    font-size: 15px;
+  }
+  .eng-ohrgisi .display-fleh .oirgi3 {
+    margin-left: 145px;
+  }
+  .eng-ohrgisi .display-fleh .oirgi3 p {
+    color: #ffffff;
+    line-height: 25px;
+    font-size: 15px;
+  }
+  .eng-ohrgisi .display-fleh .ohirgi4 {
+    margin-left: 60px;
+  }
+  .eng-ohrgisi .display-fleh .ohirgi4 p {
+    color: #ffffff;
+    line-height: 25px;
+    font-size: 15px;
+  }
+  .eng-ohrgisi .display-fleh .ohirgi5 {
+    margin-left: 130px;
+  }
+  .eng-ohrgisi .display-fleh .ohirgi5 p {
+    color: #ffffff;
+    line-height: 25px;
+    font-size: 15px;
+}

@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: sans-serif;
+}
+.container{
+    margin: 0 70px;
+}
+.header{
+    background-color: #ffffff;
+}
+.header .header-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #ffffff;
+}
+.header .header-left-nav{
+    display: flex;
+}
+.header-left .header-left-nav ul{
+    display: flex;
+}
+.header-left-nav ul li a{
+    color: black;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+.header-left-nav ul li a:hover{
+    background-color: darkblue;
+    transition: 1s;
+    color: cyan;
+}
+.section{
+    padding: 60px 0 ;
+    justify-content: center;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+.section p{
+    padding-top: 20px;
+    line-height: 25px;
+    width: 500px;
+    margin: 0 auto;
+    color: gray;
+}
+.okey {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1366px;
+    height: 900px;
+    background-color: #ffffff;
+  }
+  .okey .stayil-img {
+    height: 300px;
+    width: 341px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+  }
+  .okey .stayil-img:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url(../icons8_Eye_64px_1.png);
+    transition: 1s;
+  }
+  .okey .stayil-ses-left {
+    height: 300px;
+    width: 341px;
+}
+.eng-ohrgisi {
+    height: 280px;
+    width: 1366px;
+    background-color: black;
+    display: flex;
+    padding: 100px 0 0 0;
+  }
+  .eng-ohrgisi .display-fleh {
+    display: flex;
+  }
+  .eng-ohrgisi .display-fleh .ohirgi h5 {
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  .eng-ohrgisi .display-fleh .ohirgi p {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .eng-ohrgisi .display-fleh .ohirgi2 {
+    margin-left: 245px;
+  }
+  .eng-ohrgisi .display-fleh .ohirgi2 p {
+    color: #ffffff;
+    line-height: 25px;
+    font-size: 15px;
+  }
+  .eng-ohrgisi .display-fleh .oirgi3 {
+    margin-left: 145px;
+  }
+  .eng-ohrgisi .display-fleh .oirgi3 p {
+    color: #ffffff;
+    line-height: 25px;
+    font-size: 15px;
+  }
+  .eng-ohrgisi .display-fleh .ohirgi4 {
+    margin-left: 60px;
+  }
+  .eng-ohrgisi .display-fleh .ohirgi4 p {
+    color: #ffffff;
+    line-height: 25px;
+    font-size: 15px;
+  }
+  .eng-ohrgisi .display-fleh .ohirgi5 {
+    margin-left: 130px;
+  }
+  .eng-ohrgisi .display-fleh .ohirgi5 p {
+    color: #ffffff;
+    line-height: 25px;
+    font-size: 15px;
+}
